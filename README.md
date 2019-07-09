@@ -24,23 +24,23 @@ You can clone this repo and install all required packages by running
 
 #### For starting the development console, run:
 
-truffle develop
+``truffle develop``
 
 #### For compiling the contract, inside the development console, run:
 
-compile
+``compile``
 
 #### For migrating the contract to the locally running Ethereum network, inside the development console, run:
 
-mograte --reset
+``migrate --reset``
 
 #### For running unit tests the contract, inside the development console, run:
 
-test
+``test``
 
 #### In another terminal tab, run the truffle test:
 
-cd app
-npm run dev
+``cd app``
+``npm run dev``
 
 
