@@ -18,25 +18,27 @@ truffle-hdwallet-provider
 ```
 
 ### Running the tests
-You can clone/fork this repo and install all required packages by running ``npm install``
+You can clone this repo and install all required packages by running 
 
-For starting the development console, run:
+``npm install``
+
+#### For starting the development console, run:
 
 truffle develop
 
-For compiling the contract, inside the development console, run:
+#### For compiling the contract, inside the development console, run:
 
 compile
 
-For migrating the contract to the locally running Ethereum network, inside the development console, run:
+#### For migrating the contract to the locally running Ethereum network, inside the development console, run:
 
 mograte --reset
 
-For running unit tests the contract, inside the development console, run:
+#### For running unit tests the contract, inside the development console, run:
 
 test
 
-In another terminal tab, run the truffle test:
+#### In another terminal tab, run the truffle test:
 
 cd app
 npm run dev
